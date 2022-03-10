@@ -1,0 +1,30 @@
+/* Stylesheet for the Restaurant Page */
+#content {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto 50px;
+}
+
+#header {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header button {
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+#footer {
+    background-color: darkslategray;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
