@@ -1,7 +1,7 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "The purpose of this project is to create a website for a restaurant that has a home page, a menu page, and a contact page.",
+  "description": "Restaurant site with Home, Menu, and Contact pages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/jkenton21/restaurant-page.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jkenton21",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jkenton21/restaurant-page/issues"
