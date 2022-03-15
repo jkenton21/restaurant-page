@@ -4,12 +4,13 @@
 import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
+import loadPage from './init';
 
 //Initial load function
 initialLoad();
 
 //listen for navigation buttons to be clicked and load the desired page
-//function navigatePages() {
+function navigatePages() {
     const homeButton = document.getElementById('home');
     const menuButton = document.getElementById('menu');
     const contactButton = document.getElementById('contact');
@@ -17,10 +18,10 @@ initialLoad();
     homeButton.addEventListener('click', loadHome);
     menuButton.addEventListener('click', loadMenu);
     contactButton.addEventListener('click', loadContact);
-//}
+}
 
 //load the home page initially then listen for buttons to be clicked
 function initialLoad() {
-    loadHome();
-//    navigatePages();
+    loadPage();
+    navigatePages();
 }

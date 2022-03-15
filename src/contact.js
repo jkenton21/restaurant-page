@@ -1,15 +1,9 @@
 //JavaScript Module for Loading the Restaurant Home Page
 function loadContact() {
     
-    const contactPage = document.getElementById('content')
+    const contactPage = document.getElementById('container')
 
     contactPage.innerHTML = `
-    <div id="header">
-            <button type="button" id="home">HOME</button>
-            <button type="button" id="menu">MENU</button>
-            <button type="button" id="contact">CONTACT INFO</button>
-        </div>
-        <div id="container">
             <div id="name">
                 <h1>Contact Information</h1>
                 <img src="./img/nikola-jovanovic-QGPmWrclELg-unsplash.jpg" alt="pub" width="300">
@@ -33,11 +27,7 @@ function loadContact() {
                     <li>Saturday: 10am - 1am</li>
                     <li>Sunday: Closed</li>
                 </ul>
-            </div>
-        </div>
-        <div id="footer">
-        <p>by jkenton21 photo by <a href="https://unsplash.com/s/photos/pub">Nikola Jovanovic</a></p>
-        </div>`;
+            </div>`;
 
         return contactPage;
 }

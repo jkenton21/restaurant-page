@@ -1,9 +1,15 @@
 //JavaScript Module for Loading the Restaurant Home Page
-function loadHome() {
+function loadPage() {
     
-    const homePage = document.getElementById('container')
+    const initPage = document.getElementById('content')
 
-    homePage.innerHTML = `
+    initPage.innerHTML = `
+    <div id="header">
+            <button type="button" id="home">HOME</button>
+            <button type="button" id="menu">MENU</button>
+            <button type="button" id="contact">CONTACT INFO</button>
+        </div>
+        <div id="container">
             <div id="name">
                 <h1>Odin's Pub</h1>
                 <img src="./img/nikola-jovanovic-QGPmWrclELg-unsplash.jpg" alt="pub" width="300">
@@ -29,9 +35,13 @@ function loadHome() {
                     <li>Saturday: 10am - 4am</li>
                     <li>Sunday: Closed</li>
                 </ul>
-            </div>`;
+            </div>
+        </div>
+        <div id="footer">
+            <p>by jkenton21 photo by <a href="https://unsplash.com/s/photos/pub">Nikola Jovanovic</a></p>
+        </div>`;
 
-        return homePage;
+        return initPage;
 }
 
-export default loadHome;
+export default loadPage;
