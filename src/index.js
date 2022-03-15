@@ -3,6 +3,7 @@
 //Add HTML code to main file
 import loadHome from './home';
 import loadMenu from './menu';
+import loadContact from './contact';
 
 initialLoad();
 
@@ -13,6 +14,7 @@ function navigatePages() {
 
     homeButton.addEventListener('click', loadHome);
     menuButton.addEventListener('click', loadMenu);
+    contactButton.addEventListener('click', loadContact);
 }
 
 function initialLoad() {
