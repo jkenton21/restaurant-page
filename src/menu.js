@@ -12,6 +12,7 @@ function loadMenu() {
         <div id="container">
             <div id="name">
                 <h1>Odin's Menu</h1>
+                <img src="./img/nikola-jovanovic-QGPmWrclELg-unsplash.jpg" alt="pub" width="300">
             </div>
             <div id="menuDiv">
                 <h3>Today's Menu</h3>
@@ -27,7 +28,7 @@ function loadMenu() {
             </div>
         </div>
         <div id="footer">
-            <p>by jkenton21</p>
+            <p>by jkenton21 photo by <a href="https://unsplash.com/s/photos/pub">Nikola Jovanovic</a></p>
         </div>`;
 
         return menuPage;

@@ -12,6 +12,7 @@ function loadHome() {
         <div id="container">
             <div id="name">
                 <h1>Odin's Pub</h1>
+                <img src="./img/nikola-jovanovic-QGPmWrclELg-unsplash.jpg" alt="pub" width="300">
             </div>
             <div id="about">
                 <h3>About Us</h3>
@@ -37,7 +38,7 @@ function loadHome() {
             </div>
         </div>
         <div id="footer">
-            <p>by jkenton21</p>
+            <p>by jkenton21 photo by <a href="https://unsplash.com/s/photos/pub">Nikola Jovanovic</a></p>
         </div>`;
 
         return homePage;
