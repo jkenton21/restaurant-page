@@ -6,6 +6,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 100px auto 50px;
     justify-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 #header {
